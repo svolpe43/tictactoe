@@ -14,7 +14,7 @@ import (
 	"github.com/svolpe43/ttt/server/tictactoe"
 )
 
-const TicTacToeHost = "http://localhost:8080"
+const TicTacToeHost = "http://shawnvolpe.com:8080"
 
 type Client interface {
 	ListGames(ctx context.Context) ([]string, error)
