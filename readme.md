@@ -25,7 +25,9 @@ Lists available hosted tic tac toe games to join.
 `create <name> <choice of symbol>`
 
 Creates a new tic tac toe game and connects the client to that game. There are two parameters.
+
 `name` - the human readable name of the game.
+
 `choice of symbol` - the symbol you would like to be. Valid options are `X` and `O`
 
 Example: `create joe-shawn-game X`

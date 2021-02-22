@@ -22,12 +22,6 @@ type Game struct {
 	turn   tictactoe.Symbol
 }
 
-/*
-	todo:
-		- Game doesnt get set to nil after winner, cannot start new game
-		- Board render doesnt take into account X and O width
-*/
-
 func main() {
 
 	var (
